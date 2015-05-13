@@ -1,0 +1,13 @@
+D:\Study\command-adapter-example\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+D:\Study\command-adapter-example\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+D:\Study\command-adapter-example\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.CAdapterExample.resources
+D:\Study\command-adapter-example\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Properties.Resources.resources
+D:\Study\command-adapter-example\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.csproj.GenerateResource.Cache
+D:\Study\command-adapter-example\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.exe
+D:\Study\command-adapter-example\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.pdb
+D:\Study\command-adapter-example\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.csprojResolveAssemblyReference.cache
+D:\Study\command-adapter-example\WindowsFormsApplication1\bin\Debug\WebSocket4Net.dll
+D:\Study\command-adapter-example\WindowsFormsApplication1\bin\Debug\Newtonsoft.Json.dll
+D:\Study\command-adapter-example\WindowsFormsApplication1\bin\Debug\Newtonsoft.Json.xml
+D:\Study\command-adapter-csharp\obj\x86\Debug\WindowsFormsApplication1.exe
+D:\Study\command-adapter-csharp\obj\x86\Debug\WindowsFormsApplication1.pdb

@@ -1,0 +1,11 @@
+D:\Repository\xui-command-adapter\sample-client\bin\Release\CAdapterExample.exe
+D:\Repository\xui-command-adapter\sample-client\bin\Release\CAdapterExample.pdb
+D:\Repository\xui-command-adapter\sample-client\bin\Release\Newtonsoft.Json.dll
+D:\Repository\xui-command-adapter\sample-client\bin\Release\WebSocket4Net.dll
+D:\Repository\xui-command-adapter\sample-client\bin\Release\Newtonsoft.Json.xml
+D:\Repository\xui-command-adapter\sample-client\obj\x86\Release\CAdapterExample.csprojResolveAssemblyReference.cache
+D:\Repository\xui-command-adapter\sample-client\obj\x86\Release\WindowsFormsApplication1.CAdapterExample.resources
+D:\Repository\xui-command-adapter\sample-client\obj\x86\Release\CAdaperExample.Properties.Resources.resources
+D:\Repository\xui-command-adapter\sample-client\obj\x86\Release\CAdapterExample.csproj.GenerateResource.Cache
+D:\Repository\xui-command-adapter\sample-client\obj\x86\Release\CAdapterExample.exe
+D:\Repository\xui-command-adapter\sample-client\obj\x86\Release\CAdapterExample.pdb
