@@ -11,7 +11,7 @@ Makes use of [libwebsockets](https://libwebsockets.org/) to do its magic :)
 
 ##Getting Started
 
-1. Download the example software using the links given above and then extract it
+1. Download the example software by cloning this repository, or downloading the _packaged
 2. Run the command-adapter (`your_path/xui-command-adapter/server/Release/command-adapter.exe`)
 3. Open XSplit Broadcaster and log-in (only tested on version 2.3+)
 4. Click Tools > Script Plugins > Add Script Plugin (**If this does not exist, Enable it on the General Settings > Advanced > Check Enable Global Script**)
@@ -19,6 +19,8 @@ Makes use of [libwebsockets](https://libwebsockets.org/) to do its magic :)
 6. Click Tools > Script Plugins > Click “http://127.0.0.1:7877”
 7. Run the C# example (`your_path/command-adapter/sample-client/bin/Release/CAdapterExample.exe`)
 8. Now play with the scenes and click Change Scene
+
+*The example software currently has a limitation. You need to start the server first before executing the sample software*
 
 ##So what’s going on you might ask? 
 
