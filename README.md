@@ -11,7 +11,7 @@ Makes use of [libwebsockets](https://libwebsockets.org/) to do its magic :)
 
 ##Getting Started
 
-1. Download the example software by cloning this repository, or downloading the _packaged
+1. Download the example software by cloning this repository, or download the zipped version [here](https://drive.google.com/a/splitmedialabs.com/file/d/0B2hcWcqwwqAXLXlDRUF5WmZvY00/view?usp=sharing)
 2. Run the command-adapter (`your_path/xui-command-adapter/server/Release/command-adapter.exe`)
 3. Open XSplit Broadcaster and log-in (only tested on version 2.3+)
 4. Click Tools > Script Plugins > Add Script Plugin (**If this does not exist, Enable it on the General Settings > Advanced > Check Enable Global Script**)
