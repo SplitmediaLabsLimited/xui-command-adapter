@@ -12,17 +12,17 @@ Makes use of [libwebsockets](https://libwebsockets.org/) to do its magic :)
 ##Getting Started
 
 1. Download the example software by cloning this repository, or download the zipped version [here](https://drive.google.com/a/splitmedialabs.com/file/d/0B2hcWcqwwqAXLXlDRUF5WmZvY00/view?usp=sharing)
-2. Run the command-adapter (`your_path/xui-command-adapter/server/Release/command-adapter.exe`)
+2. Run the command-adapter (`your_path/to/server/Release/command-adapter.exe`)
 3. Open XSplit Broadcaster and log-in (only tested on version 2.3+)
 4. Click Tools > Script Plugins > Add Script Plugin (**If this does not exist, Enable it on the General Settings > Advanced > Check Enable Global Script**)
 5. Type on the textbox of Add Script Plugin: “http://127.0.0.1:7877” and then click OK
 6. Click Tools > Script Plugins > Click “http://127.0.0.1:7877”
-7. Run the C# example (`your_path/command-adapter/sample-client/bin/Release/CAdapterExample.exe`)
+7. Run the C# example (`your_path/to/sample-client/bin/Release/CAdapterExample.exe`)
 8. Now play with the scenes and click Change Scene
 
 *The example software currently has a limitation. You need to start the server first before executing the sample software*
 
-##So what’s going on you might ask? 
+##So what’s going on you might ask?
 
 Basically, the C# software would send commands (strings) to the websocket (`ws://127.0.0.1:7877`) wherein that same websocket is being listened by the global script (http://127.0.0.1:7877). The global script would then execute the command if the keyword is available on the external calls that is exposed on the global script by XSplit Broadcaster.
 
