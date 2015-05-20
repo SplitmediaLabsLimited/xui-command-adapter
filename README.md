@@ -4,6 +4,9 @@
 Forwards commands from 3rd party software to the target software through websockets.
 Makes use of [libwebsockets](https://libwebsockets.org/) to do its magic :)
 
+A simple diagram would be nice right? :)
+<img src="https://cdn.rawgit.com/SplitmediaLabsLimited/xui-command-adapter/master/flow.png" width="400px" />
+
 *For this proof-of-concept, we just made an example C# software that changes*
 *scenes, a websocket software with hosted html which should be added to the*
 *global script of XBC, and a C based websocket software (though I’m using .cpp,*
