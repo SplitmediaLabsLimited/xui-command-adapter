@@ -1,4 +1,6 @@
 (function() {
+	'use strict';
+
 	var _callbacks = {};
 	
 	window.OnAsyncCallback = function(asyncId, res) {
@@ -40,8 +42,9 @@
 			if(scene === undefined) return;
 			
 			// Not sure if I need async or not, but I'll just use it :)
-			scene = Number(scene) < 0 ? 0 : scene;
-			scene = Number(scene) > 11 ? 11 : scene;
+			scene = parseInt(scene) + 1;
+			scene = scene < 1 ? 1 : scene;
+			scene = scene > 12 ? 12 : scene;
 			
 			if (window.external.AppSetPropertyAsync) {
 				window.external.AppSetPropertyAsync('preset', String(scene));
