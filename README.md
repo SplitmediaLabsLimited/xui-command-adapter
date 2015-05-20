@@ -5,6 +5,7 @@ Forwards commands from 3rd party software to the target software through websock
 Makes use of [libwebsockets](https://libwebsockets.org/) to do its magic :)
 
 A simple diagram would be nice right? :)
+
 <img src="https://cdn.rawgit.com/SplitmediaLabsLimited/xui-command-adapter/master/flow.png" width="400px" />
 
 *For this proof-of-concept, we just made an example C# software that changes*
