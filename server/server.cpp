@@ -282,8 +282,12 @@ static void dump_handshake_info(struct libwebsocket *wsi)
 }
 #pragma endregion
 
-// server url will be http://localhost:7877 because.. reasons
-int main(void) {
+/**
+ * The main function. Start our damn server
+ *
+ * DEFAULT PORT = 7877
+ **/
+int main(int argc, char* argv[]) {
 	struct libwebsocket_context *context;
 	struct lws_context_creation_info info;
 
@@ -293,6 +297,10 @@ int main(void) {
 	info.gid = -1;
 	info.uid = -1;
 	info.protocols = protocols;
+
+	if (argc > 2 && std::string(argv[1]) == "-p") {
+		info.port = std::stoi(argv[2]);
+	}
 
 	// create libwebsocket context representing this server
 	context = libwebsocket_create_context(&info);
